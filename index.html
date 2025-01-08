@@ -3,61 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio Website</title>
 </head>
 <body>
     <header>
-        <h1>Hello, I'm [Your Name] 👋</h1>
-        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+        <a href="#" class="logo">DAA</a>
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#our_team" >Our Team</a>
+            <a href="#dsa" >Data Structures</a>
+            <a href="#reflections">Course Reflections</a>
+            <a href="htmls/function.html" >Problem Statement and Functionalities</a>
+        </nav>
     </header>
-
-    <section>
-        <h2>🛠️ Projects</h2>
-        <ul>
-            <li><strong>Project 1</strong>: A short description of your project1.</li>
-            <li><strong>Project 2</strong>: A short description of another project2.</li>
-        </ul>
-
-        <h2>🚀 Skills</h2>
-        <ul>
-            <li>C++, Python, JavaScript</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Development (React.js, Node.js)</li>
-        </ul>
-
-        <h2>🌐 Find Me Online</h2>
-        <ul>
-            <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-        </ul>
-
-        <h2>Portfolio Topic</h2>
-        <dl>
-            <dt>Course Name</dt>
-            <dd>Algorithmic Problem Solving</dd>
-
-            <dt>Course Code</dt>
-            <dd>Course Code Placeholder</dd>
-
-            <dt>Name</dt>
-            <dd>Your Name</dd>
-
-            <dt>SRN</dt>
-            <dd>Your SRN</dd>
-
-            <dt>Course Instructor</dt>
-            <dd>Instructor Name Placeholder</dd>
-
-            <dt>University</dt>
-            <dd>Your University Name</dd>
-
-            <dt>Portfolio Topic/Domain</dt>
-            <dd>Google</dd>
-        </dl>
-
-        <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
+    <section class="home">
+        <div class="home-img">
+            <img src="images/main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Design and Analysis of <span class="auto-type"></span></h1>
+            <p>The course on Design and Analysis of Algorithms focuses on developing methods to solve problems efficiently through step-by-step instructions called algorithms. It covers creating these methods, evaluating their speed and efficiency, and optimizing them for better performance. The emphasis is on understanding how to approach problems systematically to find effective and resourceful solutions.</p>
+        </div>
     </section>
+    <section id="our_team" class="our_team">
+        <div class="team">
+            <h1>Our Team-<br><span>Let us introduce our Team</span></h1>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="info">
+                    <i class="bxl figma"></i>
+                    <img src="images/manjunath.jpg" alt="">
+                    <h4>Manjunath S M<br>Roll No:151<br>USN:01fe23bcs248</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <i class="bxl figma"></i>
+                    <img src="images/gopal.jpg" alt="">
+                    <h4>Advirao<br>Roll No:114<br>USN:01fe23bcs081</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="info">
+                    <i class="bxl figma"></i>
+                    <img src="images/shivraj.jpg" alt="">
+                    <h4>Shivraj Jirli<br>Roll No:122<br>USN:01fe23bcs100</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="info">
+                    <i class="bxl figma"></i>
+                    <img src="images/shreeneketh.jpg" alt="">
+                    <h4>Shreeneketh Joshi<br>Roll No:136<br>USN:01fe23bcs376</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="dsa" class="dsa" >
+        <h1>Data Structures and Algorithms</h1><br>
+        <div class="container">
+            <a href="htmls/page 1.html">
+            <div class="box">
+                <div class="info">
+                    <i class="bxl figma"></i>
+                    <h4>Data Structures</h4>
+                </div>
+            </div>
+            </a>
+            <a href="htmls/page 2.html">
+            <div class="box">
+                <div class="info">
+                    <i class="bxl figma"></i>
+                    <h4>Algorithm Design Techniques</h4>
+                </div>
+            </div></a>
+            <a href="htmls/page 3.html">
+            <div class="box">
+                <div class="info">
+                    <i class="bxl figma"></i>
+                    <h4>Algorithms</h4>
+                </div>
+            </div>
+        </a>
+        <a href="htmls/page 4.html">
+            <div class="box">
+                <div class="info">
+                    <i class="bxl figma"></i>
+                    <h4>Sorting Techniques</h4>
+                </div>
+            </div>
+        </a>
+        </div>
+    </section>
+    <section id="reflections" class="reflections">
+        <div class="container">
+        <a href="htmls/reflections.html">
+        <div class="box">
+            <div class="info">
+                <i class="bxl figma"></i>
+                <h1>Course Reflections</h1>
+            </div>
+        </div>
+    </a>
+        </div>
+    </section>
+    <footer>
+        <p>Author: Manjunath S M</p>
+        <p><a href="mailto:01fe23bcs248@kletech.ac.in">01fe23bcs248@kletech.ac.in</a></p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["ALGORITHMS"],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true
+        })
+    </script>
 </body>
 </html>
